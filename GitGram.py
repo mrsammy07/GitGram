@@ -31,8 +31,8 @@ if ENV:
     PROJECT_NAME = environ.get('PROJECT_NAME', None)
     ip_addr = environ.get('APP_URL', None)
     # You kanged our project without forking it, we'll get you DMCA'd.
-    GIT_REPO_URL = environ.get('GIT_REPO_URL', "https://github.com/GitGram/vanila")
-    GITGRAM_SUPPORT = environ.get('GITGRAM_SUPPORT', "https://t.me/GitGramChat")
+    GIT_REPO_URL = environ.get('GIT_REPO_URL', "https://github.com/TeamDeeCode/VcVideoPlayer")
+    GITGRAM_SUPPORT = environ.get('GITGRAM_SUPPORT', "https://t.me/TeamDeeCode")
 else:
     BOT_TOKEN = config.BOT_TOKEN
     PROJECT_NAME = config.PROJECT_NAME
@@ -43,7 +43,7 @@ else:
 updater = Updater(token=BOT_TOKEN, workers=1)
 dispatcher = updater.dispatcher
 
-print("If you need more help, join @GitGramChat in Telegram for assistance.")
+print("If you need more help, join @TeamDeeCode in Telegram for assistance.")
 
 
 def start(_bot, update):
