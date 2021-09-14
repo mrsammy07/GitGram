@@ -24,7 +24,7 @@ Bruh, want to be like [the Pins team](https://t.me/Sammy-XD_GitGramBot)'s instan
 
 - Fork this repository, as you would do with other repos.
 - Sign in to Heroku and create a new app.
-- Open your app's overview. Under **Deploy** tab, select **Deployment method** to `GitHub`, connect your repo
+- Open your app's overview. Under **Deploys** tab, select **Deployment method** to `GitHub`, connect your repo
 - Select `master` to enable auto-deploys.
 - Then on **Settings** tab, add `APP_URL`, `BOT_TOKEN`, `GITGRAM_SUPPORT`, `GIT_REPO_URL`, and `PROJECT_NAME` variables. To use them, set `ENV` to `True`.
 - Just one restart away to run your instance. To setup, open your bot's PMs or add it to your group and use `/connect` command.
