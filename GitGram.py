@@ -50,14 +50,14 @@ def start(_bot, update):
     """/start message for bot"""
     message = update.effective_message
     message.reply_text(
-        f"**I Am Not Gonna Help You 🤣**",
+        f"*I Am Not Gonna Help You* 🤣",
         parse_mode="markdown")
 
 def help(_bot, update):
     """/help message for the bot"""
     message = update.effective_message
     message.reply_text(
-        f"**I Am Not Gonna Help You 🤣**",
+        f"*I Am Not Gonna Help You* 🤣",
         parse_mode="markdown"
     )
 
@@ -65,7 +65,7 @@ def support(_bot, update):
     """Links to Support"""
     message = update.effective_message
     message.reply_text(
-        f"**I Am Not Gonna Help You 🤣",
+        f"*I Am Not Gonna Help You* 🤣",
         parse_mode="markdown"
     )
 
@@ -73,7 +73,7 @@ def source(_bot, update):
     """Link to Source"""
     message = update.effective_message
     message.reply_text(
-        f"*Source*:\n\nThis instance: {GIT_REPO_URL}",
+        f"*I Am Not Gonna Help You* 🤣",
         parse_mode="markdown"
     )
 
