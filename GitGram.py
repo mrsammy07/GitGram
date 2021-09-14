@@ -213,7 +213,7 @@ def git_api(groupid):
     if data.get('forkee'):
         response = post_tg(
             groupid,
-            f"🙇 <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a> **forked** <a href='{data['repository']['html_url']}'>{data['repository']['name']}</a>\n**Total forks**:⚡ {data['repository']['forks_count']}",
+            f"🙇 <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a> *forked* <a href='{data['repository']['html_url']}'>{data['repository']['name']}</a>\n*Total forks* :`⚡` {data['repository']['forks_count']}",
             "html")
         return response
 
