@@ -20,7 +20,7 @@ If you want to deploy this app on Heroku, there's a one-click setup for that. Cl
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pokurt/GitGram)
 
 ### Prefer to use Auto-Deploy?
-Bruh, want to be like [the Pins team](https://t.me/ThePinsTeam_GitGramBot)'s instance or can't install `heroku` CLI?
+Bruh, want to be like [the Pins team](https://t.me/Sammy-XD_GitGramBot)'s instance or can't install `heroku` CLI?
 
 - Fork this repository, as you would do with other repos.
 - Sign in to Heroku and create a new app.
